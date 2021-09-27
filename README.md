@@ -12,7 +12,9 @@ This is a simple generated Rails 6.1 app and assumes a working ruby installation
 * Implemented api route examples:
   * `*/countries` 
     * returns all country data
-  * `*/countries/basic_info/bra` 
+  * `*/countries/basic_info/:code`
     * returns the basic info requested in part 1 of the challenge
-  * `*/countries/find_capitals/40/60/-40/0` 
+    * For Brazil you would hit `*/countries/basic_info/bra`
+  * `*/countries/find_capitals/:min_lat/:max_lat/:min_long/:max_long` 
     * returns the list of capitals requested in part 2 of the challenge
+    * For a box containing western coastal europe you would hit `*/countries/find_capitals/40/60/-40/0` 
