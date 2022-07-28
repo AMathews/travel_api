@@ -1,4 +1,4 @@
-# README
+# README for Interview Test Project
 
 This is a simple generated Rails 6.1 app and assumes a working ruby installation with bundler 2 installed.
 
